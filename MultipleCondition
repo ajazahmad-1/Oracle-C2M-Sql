@@ -1,0 +1,6 @@
+SELECT ACCT_APAY_ID
+FROM CI_ACCT_APAY
+WHERE ACCT_ID = :accountId
+AND START_DT <= :currentDate
+AND (END_DT IS NULL OR END_DT >= :currentDate);
+
