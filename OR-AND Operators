@@ -1,0 +1,6 @@
+--Check the complete records in the table
+SELECT * FROM CI_PER;
+
+--The records after applying filter
+SELECT * FROM CI_PER
+WHERE CITY = 'San-Francisco' AND (COUNTY LIKE 'S%' OR COUNTY LIKE 'F%');
