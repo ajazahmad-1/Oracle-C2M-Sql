@@ -20,5 +20,5 @@ VALUES
     1
 );
 
---Check the data have been insterted into Table 
+----Check the data have been insterted into Table 
 SELECT * FROM CI_PER_PHONE;
