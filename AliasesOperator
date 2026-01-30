@@ -3,7 +3,7 @@ SELECT ACCT_ID, START_DT
 FROM CI_SA
 WHERE START_DT BETWEEN '01-JAN-15' AND '01-JAN-16';
 
-======================================================================
+===========================================
 
 SELECT * FROM CI_PER;
 
