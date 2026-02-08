@@ -1,4 +1,6 @@
 SELECT * FROM CI_ACCT
 WHERE NOT COUNTRY = 'CHINA';
 
+=====================================
+
 SELECT * FROM CI_ACCT;
