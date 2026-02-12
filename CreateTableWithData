@@ -34,3 +34,9 @@ VALUES
     'SS',
     1
 );
+
+
+--Check the data have been inserted into table or not
+
+SELECT * FROM CI_PER_PHONE;
+
